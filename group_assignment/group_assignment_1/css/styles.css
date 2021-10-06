@@ -1,0 +1,64 @@
+body,html {
+ height: 100%;
+ width: 100%;
+}
+
+.bgcolor {
+ background-color: #4acbd6;
+ color: white;
+}
+
+.header_table {
+ width: 100%;
+}
+
+.icon_container {
+ width: 20%;
+ text-align: left;
+ padding: 10px;
+}
+.icon {
+ width: 80%;
+}
+
+.form {
+ width: 60%;
+ padding: 10px 0;
+}
+.clip_art_container {
+ width: 20%;
+}
+.input_area {
+ border: 0;
+ padding: 7px;
+ margin: 2px;
+ border-radius: 5px;
+ width: 40%;
+}
+.submit_btn {
+ border: 0;
+ border-radius: 5px;
+ padding: 5px;
+ border: 1px solid #2f9aa3;
+ margin-top: 5px;
+}
+.main {
+ width: 100%;
+}
+.left_pannel {
+ width: 20%;
+}
+.left_pannel_container {
+ background: white;
+ padding: 10px;
+ margin: 10px;
+}
+.right_pannel {
+ padding: 10px;
+}
+.footer {
+ width: 100%;
+ text-align: center;
+ padding: 10px;
+ color: white;
+}
