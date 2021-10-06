@@ -1,220 +1,77 @@
-html {
-  height: 100%;
-}
-body {
+body, html, div, p {
   margin: 0;
   padding: 0;
-  height: 100%;
+  font-family: 'Noto Sans Display', sans-serif;
 }
-div {
-  margin: 0;
-  padding: 0;
+.global_container {
+  margin: 0 30px;
 }
-pre {
-  margin: 0;
-  padding: 0;
-  font-family: "Times New Roman", Times, serif;
-}
-img {
-  margin: 0;
-}
-p {
-  color: darkslategray;
-  margin: 0;
-  padding: 0;
-}
-.global_padding {
-  margin: 0 auto;
-  width: 95%;
-}
-
 .top_nav {
-  background: darkslategrey;
-  padding: 10px;
-  height: 20px;
-  border-bottom: 5px solid green;
+  background-color: darkolivegreen;
+  padding: 0 30px;
 }
-.top_nav_element {
+.top_nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
   color: white;
 }
-.top_nav_pre {
-  width: 70%;
-  float: left;
+.top_nav a:hover {
+  background-color: darkslategray
 }
 
-.top_nav_image_container {
-  float: right;
-}
-.top_nav_images {
-  height: 16px;
-}
-
-.header_area {
-  padding: 20px 0;
-  text-align: center;
-}
-.header_logo {
-  height: 100px;
-}
-
-.main_nav {
-  background: darkslategrey;
-  border-bottom: 6px solid green;
-  height: 40px;
-}
-.main_nav_btn_icon {
-  height: 20px;
-}
-.main_nav_btn {
-  height: 65%;
-  padding: 10px;
-  background-color: green;
-}
-.main_nav_home {
-  float: left;
-}
-.main_nav_items {
-  float: left;
-  color: white;
-  padding: 10px 15px;
-  border-right: 1px solid darkgreen;
-}
-.main_nav_search {
+.top_nav .social_nav {
   float: right;
 }
 
-.blog_main_table {
-  border: 0;
-}
-.main_blog_area {
-  width: 65%;
-}
-.suggested_blog_area {
-  width: 35%;
-}
-.main_blog_area_container {
-  height: 100%;
-  width: 100%;
-}
-.blog_banner {
-  margin-top: 20px;
-  width: 100%;
-}
-.blog_banner_image {
-  width: 100%;
-}
-.blog_banner_heading {
-  background: green;
-  margin: 0;
-  padding: 10px;
-  color: white;
-}
-.blog_date {
-  color: gray;
-  padding: 5px 0;
+.social_nav img {
+  height: 15px;
 }
 
+.logo_area img {
+  width: 300px;
+  margin: 20px 30px;
+}
 .area_title_container {
-  background-color: darkslategray;
-  border-bottom: 5px solid green;
-  margin: 15px 0;
-  height: 30px;
+  background: darkslategrey;
+  border-bottom: 5px solid darkolivegreen;
 }
 .area_title {
-  float: left;
+  display: inline-block;
   color: white;
-  padding: 8px;
-  background: green;
+  background-color: darkolivegreen;
+  padding: 5px 13px;
 }
 
-.regular_blog_area {
-  width: 100%;
-}
-.blog_img {
-  width: 40%;
-  float: left;
-}
-.blog_container {
-  width: 50%;
-  float: left;
-  padding: 10px;
-}
-.blog_header {
-  color: darkslategray;
-  margin: 0;
-}
-.blog_content {
-  color: darkslategray;
-  text-align: justify;
-}
-.float_clear_without_clear_property {
-  width: 100%;
-  float: right;
-  height: 20px;
-}
-.categories {
-  width: 100%;
-  float: left;
-}
-details {
-  width: 100%;
-  padding: 15px 10px;
-  border-bottom: 1px solid lightgray;
-}
-.tags {
-  float: left;
-  width: 100%;
-}
-.tag {
-  background: lightgray;
-  padding: 5px;
-  float: left;
-  margin: 3px;
-  border-radius: 3px;
-}
-.tag_number {
-  background-color: green;
-  color: white;
-  padding: 3px;
-  margin-left: 5px;
-  border-radius: 3px;
-}
-.total_visitors {
-  width: 100%;
-  float: left;
-}
-.visitors_counter {
-  color: darkolivegreen;
-}
 
 footer {
-  width: 100%;
-  background-color: DarkSlateGray;
-  color: white;
-  padding: 10px 0;
-  border-top: 5px solid green;
-}
-
-.footer_area_div {
-  width: 33.33%;
+  background-color: darkslategray;
   float: left;
-  padding-bottom: 20px;
-  margin-bottom: 10px;
-}
-
-.bottom_footer_area {
-  text-align: center;
-}
-.footer_text {
-  padding-right: 10px;
   color: white;
+}
+footer a {
+  color: white;
+}
+.footer_area_div {
+  width: 31%;
+  float: left;
+  text-align: justify;
+  padding: 10px;
 }
 .location_table {
   width: 100%;
 }
+.location_table tr td:last-child {
+  text-align: right;
+}
+
 .footer_devider {
-  background: green;
   width: 100%;
-  float: right;
-  height: 2px;
+  float: left;
+}
+.bottom_footer_area {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
 }
