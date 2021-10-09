@@ -1,0 +1,82 @@
+body, html, div, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+.global_container {
+  margin: 0 30px;
+}
+.top_nav {
+  background-color: darkolivegreen;
+  padding: 0 30px;
+}
+.top_nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+.top_nav a:hover {
+  background-color: darkslategray
+}
+
+.top_nav .social_nav {
+  float: right;
+}
+
+.social_nav img {
+  height: 15px;
+}
+
+.logo_area img {
+  width: 300px;
+  margin: 20px 30px;
+}
+.area_title_container {
+  background: darkslategrey;
+  border-bottom: 5px solid darkolivegreen;
+}
+.area_title {
+  display: inline-block;
+  color: white;
+  background-color: darkolivegreen;
+  padding: 5px 13px;
+}
+.area_title_container a {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+}
+
+
+footer {
+  background-color: darkslategray;
+  float: left;
+  color: white;
+}
+footer a {
+  color: white;
+}
+.footer_area_div {
+  width: 31%;
+  float: left;
+  text-align: justify;
+  padding: 10px;
+}
+.location_table {
+  width: 100%;
+}
+.location_table tr td:last-child {
+  text-align: right;
+}
+
+.footer_devider {
+  width: 100%;
+  float: left;
+}
+.bottom_footer_area {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}

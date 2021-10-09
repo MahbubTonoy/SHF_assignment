@@ -1,0 +1,28 @@
+.blog_container {
+ width: 30%;
+ height: 525px;
+ border: 1px solid lightblue;
+ padding: 10px;
+ text-align: justify;
+ margin: 9px;
+ float: left;
+
+}
+.blog_container img {
+ width: 100%;
+}
+.blog_container h3 {
+ text-align: left;
+}
+
+.navigator {
+ float: left;
+ width: 100%;
+ text-align: center;
+ margin: 10px 0;
+}
+.navigator a {
+ text-decoration: none;
+ display: inline-block;
+ padding: 0 5px;
+}

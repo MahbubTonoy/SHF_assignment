@@ -1,0 +1,35 @@
+.contact_page {
+ margin-bottom: 20px;
+ margin-top: 10px;
+}
+.contact_page form {
+ text-align: center;
+}
+
+.contact_table {
+ width: 100%;
+ text-align: center;
+}
+.contact_table input {
+ width: 95%;
+ border: 1px solid darkolivegreen;
+ border-radius: 5px;
+ padding: 10px;
+ margin: 5px 0;
+
+}
+.contact_table textarea {
+ width: 97.5%;
+ border: 1px solid darkolivegreen;
+ border-radius: 5px;
+ padding: 10px;
+ height: 200px;
+}
+.form_submit_btn {
+ border: 0;
+ padding: 10px;
+ background: darkslategray;
+ color: white;
+ border-radius: 3px;
+ margin-top: 5px;
+}

@@ -1,0 +1,14 @@
+.sitemap {
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+.sitemap a {
+ text-decoration: none;
+ color: black;
+}
+.sitemap a:hover {
+ text-decoration: underline;
+}
+.sitemap a::before {
+ content: '- ';
+}
