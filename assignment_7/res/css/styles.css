@@ -264,3 +264,42 @@ footer a {
  margin-bottom: 20px;
  margin-top: 10px;
 }
+.hotline table {
+ margin: 0 auto;
+ width: 50%;
+}
+.hotline table tr td:last-child p{
+ text-align: right;
+}
+.hotline p {
+ margin-bottom: 10px;
+}
+.appointment_area {
+ text-align: center;
+ margin-bottom: 10px;
+ border-bottom: 1px solid #aaa;
+}
+.contact_table {
+ width: 100%;
+ padding: 10px;
+}
+.contact_table tr td {
+ padding-bottom: 10px;
+}
+input{
+ width: 90%;
+ padding: 2%;
+}
+textarea {
+ padding: 15px;
+ width: 94.5%;
+ height: 80px;
+}
+.appointment_area button {
+ background: #417bac;
+ color: #fff;
+ padding: 10px;
+ border: 0;
+
+ margin-bottom: 40px;
+}
