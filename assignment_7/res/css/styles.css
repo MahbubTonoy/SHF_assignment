@@ -186,7 +186,10 @@ h2:hover::after {
 .department_card {
  display: inline-block;
  width: 28%;
- margin: 0 2.5% 0 2.5%;
+ margin: 0 2.5%;
+ border-bottom: 2px solid #417bac;
+ padding-bottom: 15px;
+ border-radius: 10px;
 }
 .background_image_area_1 {
  background-image: url("../images/pain-management-new.jpg");
@@ -215,6 +218,7 @@ h2:hover::after {
  color: #fff;
  margin-top: 10px;
  border-radius: 3px;
+ margin-left: 10px;
 }
 .map img {
  width: 100%;
