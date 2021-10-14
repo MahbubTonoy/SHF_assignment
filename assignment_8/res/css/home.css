@@ -1,51 +1,101 @@
 .current_page {
- border-width: 1px 1px 0 1px;
- border-color: #89C4F4;
- border-style: solid;
- position: relative;
+  border-width: 1px 1px 0 1px;
+  border-color: #89c4f4;
+  border-style: solid;
+  position: relative;
 }
 .current_page::after {
- content: '';
- position: absolute;
- bottom: -1px;
- left: 0;
- background-color: #fff;
- width: 100%;
- height: 1px;
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 1px;
 }
 #current_page_link {
- color: #0397d3;
+  color: #0397d3;
 }
-.navbar ul {
- border-bottom: 1px solid #89C4F4;
-}
+
 .bottom_navbar {
- background: #fff;
- border-bottom: 1px solid #cecfd1;
- font-size: 15px;
- text-align: center;
+  background: #fff;
+  border-bottom: 1px solid #cecfd1;
+  font-size: 15px;
+  text-align: center;
+  position: relative;
 }
-.bottom_navbar ul {
- list-style-type: none ;
- max-width: 1150px;
- margin:0 auto;
+.bottom_navbar > ul {
+  list-style-type: none;
+  max-width: 1150px;
+  margin: 0 auto;
 }
-.bottom_navbar ul li {
- display: inline-block;
- margin-right: 15px;
- padding: 12px 15px;
+.bottom_navbar > ul> li {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 12px 15px;
 }
 .bottom_navbar ul li a {
- color: #404040;
+  color: #606060;
+  transition: all 0.3s linear;
+}
+.bottom_navbar > ul > li a:hover {
+ color: #0397d3;
 }
 
 .dropdown_icon::after {
- content: "^";
- transform: rotate(180deg);
- font-size: 12px;
- margin: 0 5px;
+  content: "^";
+  transform: rotate(180deg);
+  font-size: 12px;
+  margin: 0 5px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1rem;
+  margin-bottom: 10px;
+}
+
+.dropdown_icon:hover::after {
+  transform: rotate(0deg);
+  margin-bottom: 0;
+}
+
+.dropdown_author {
+ position: absolute;
+ top: 100%;
+ left: 50%;
+ transform: translate(-50%, 0);
+ width: 1120px;
+ background: #fff;
+ display: flex;
+ border-radius: 3px;
+ box-shadow: 5px 5px 5px #ddd, -5px 5px 5px #ddd;
+ /* display: none; */
+ overflow: hidden;
+ height: 0;
+ transition: all 0.2s ease-in-out;
+ display: flex;
+}
+.author:hover .dropdown_author, .dropdown_author:hover {
+ height: 300px;
+}
+
+.dropdown_author ul li {
+ text-align: left;
+ list-style-type: disc;
+ margin: 10px;
+ margin-left: 30px;
+}
+
+.dropdown_author div {
+ width: 25%;
+}
+.dropdown_section {
+ text-align: left;
+}
+.dropdown_section > a {
  display: inline-block;
- vertical-align: middle;
- line-height: 1rem;
- margin-bottom: 10px;
+ padding-bottom: 20px;
+ color: #0397d3 !important;
+}
+.dropdown_section:last-child li {
+ margin: 9px 10px;
 }

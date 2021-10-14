@@ -102,9 +102,9 @@ a {
 }
 .navbar a {
  display: inline-block;
- font-size: 17px;
+ font-size: 16px;
  color: #404040;
- transition: all 0.5s linear;
+ transition: all 0.4s linear;
 }
 .navbar li a img {
  width: 25px;
@@ -114,4 +114,7 @@ a {
 }
 .navbar li a:hover {
  color: #0397d3;
+}
+.navbar ul {
+ border-bottom: 1px solid #89c4f4;
 }
