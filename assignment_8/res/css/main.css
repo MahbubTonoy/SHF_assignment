@@ -1,0 +1,86 @@
+@font-face {
+ font-family: Siyamrupali;
+ src: url("../fonts/Siyamrupali_1_01.ttf");
+}
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Lato", sans-serif, "SiyamRupali", sans-serif;
+}
+body {
+ font-size: 14px;
+ background: #f1f2f4;
+}
+a {
+ text-decoration: none;
+}
+.container {
+ padding: 0 91px;
+}
+
+
+.top_nav_area {
+ padding: 20px 91px;
+ display: flex;
+ background: #fff;
+}
+
+.logo_area img {
+ width: 110px;
+}
+.search_bar {
+ padding: 0 75px;
+ display: flex;
+}
+.search_box {
+ padding: 12px;
+ height: 46px;
+ font-size: 14px;
+ width: 604.333px;
+ border: 1px solid #ccc;
+ border-bottom: 2px solid orange;
+ border-radius: 3px 0 0 3px;
+ outline: none;
+}
+.search_box:focus {
+ border: 1px solid #80bdff;
+ padding-bottom: 13px;
+}
+ ::placeholder {
+ color: #aaa;
+}
+
+.search_submit {
+ height: 46px;
+ width: 50px;
+ background-color: #0397d3;
+ border: 0;
+ border-radius: 0 3px 3px 0;
+}
+.search_submit img {
+ margin-top: 1px;
+ height: 20px;
+}
+
+
+.user_action_area {
+ float: right;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: auto;
+}
+
+.sign_in_btn {
+ display: inline-flex;
+ align-items: center;
+ justify-content: center;
+ color: #404040;
+ border: 1px solid #404040;
+ padding: 6px 5px;
+ width: 80px;
+ height: 38px;
+ margin: 0 15px;
+ border-radius: 5px;
+}
