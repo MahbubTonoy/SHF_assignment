@@ -28,6 +28,10 @@ a {
  max-width: 1120px;
  margin: 18px auto;
 }
+.base_shadow {
+ box-shadow: 0px 4px 6px -3px #9c9c9c;
+ border-radius: 3px;
+}
 
 
 .top_nav_area {
