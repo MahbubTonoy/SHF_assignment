@@ -3,6 +3,7 @@
   border-color: #89c4f4;
   border-style: solid;
   position: relative;
+  margin-right: 10px;
 }
 .current_page::after {
   content: "";
@@ -72,6 +73,7 @@
  max-height: 0;
  transition: all 0.3s ease-in-out;
  display: flex;
+ z-index: 999;
 }
 .author:hover .dropdown, .dropdown:hover,
 .subject:hover .dropdown,
@@ -165,4 +167,113 @@
 }
 .book_catagories a:nth-child(2) {
   margin: 0 20px;
+}
+
+
+
+
+.recently_solid_product {
+  background: #fff;
+  padding: 16px;
+}
+
+.catagory_title {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.product_container {
+  font-family: 'Kalpurush', "Lato", sans-serif, sans-serif;;
+  display: flex;
+}
+.product {
+  width: 16.66%;
+  padding: 15px;
+  padding-top: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.product_image_wrapper {
+  text-align: center;
+  position: relative;
+}
+.product_image_wrapper img {
+  width: 130px;
+  -webkit-transform: scale(0.84);
+  transform: scale(0.84);
+}
+.read_book_icon {
+  position: absolute;
+  right: 23px;
+  bottom: 21px;
+  height: 68px;
+  width: 85px;
+  background: url("../images/icons/look-inside.png  ") no-repeat;
+} 
+.book_title {
+  text-align: center;
+  margin-bottom: 7px;
+}
+.price_wrapper {
+  text-align: center;
+  font-size: 14px;
+}
+.base_price {
+  font-size: 16px;
+  color: #666;
+  margin-right: 5px;
+}
+
+.product_hover {
+  background: rgba(255,255,255, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  box-shadow: inset 0px 0px 10px 0px #cdcdcd;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.product_add_to_cart_btn {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 3px 6px -4px #a2a2a2;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ff9900;
+  padding: 10px;
+  width: 106px;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.view_details_btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #0397d3;
+  width: 100%;
+  color: #fff;
+  padding: 6px 12px;
+  text-align: center;
+  font-weight: 700;
+  opacity: 0;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.product:hover .product_hover,
+.product:hover .product_add_to_cart_btn,
+.product:hover .view_details_btn {
+  opacity: 1;
+}
+.view_details_btn:hover  {
+  background: #37aaf7;
 }

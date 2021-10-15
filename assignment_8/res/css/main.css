@@ -2,11 +2,15 @@
  font-family: Siyamrupali;
  src: url("../fonts/Siyamrupali_1_01.ttf");
 }
+@font-face {
+ font-family: Kalpurush;
+ src: url("../fonts/kalpurush.ttf");
+}
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
- font-family: "Lato", sans-serif, "SiyamRupali", sans-serif;
+ font-family: "SiyamRupali", "Lato", sans-serif, sans-serif;
 }
 body {
  font-size: 14px;
@@ -34,6 +38,7 @@ a {
  position: fixed;
  left: 0;
  top: 0;
+ z-index: 999;
 }
 
 .logo_area img {
@@ -95,7 +100,7 @@ a {
  border-radius: 5px;
 }
 .navbar {
- margin-top: 86px;
+ margin-top: 83px;
  background: #fff;
  text-align: center;
  margin-left: -80px;
@@ -107,7 +112,7 @@ a {
 }
 .navbar a {
  display: inline-block;
- font-size: 16px;
+ font-size: 17px;
  color: #404040;
  transition: all 0.4s linear;
 }
