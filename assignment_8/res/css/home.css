@@ -147,6 +147,22 @@
     left: -300%
   }
   95% {
+    left: -300%;
+  }
+  100% {
     left: 0;
   }
+}
+.book_catagories {
+  display: flex;
+}
+.book_catagories a {
+  width: 33.33%;
+  display: inline-block;
+}
+.book_catagories img {
+  width: 100%;
+}
+.book_catagories a:nth-child(2) {
+  margin: 0 20px;
 }
