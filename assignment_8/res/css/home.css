@@ -169,7 +169,8 @@
   margin: 0 20px;
 }
 
-.recently_solid_product {
+.recently_solid_product,
+.book_catagories_2 {
   background: #fff;
   padding: 16px;
 }
@@ -179,13 +180,20 @@
   color: #333;
   margin-bottom: 5px;
 }
+.catagory_title span {
+  font-size: 14px;
+  color: #aaa;
+  padding-left: 10px;
+}
 
-.product_container {
+.product_container,
+.book_catagory_2_container {
   font-family: "Kalpurush", "Lato", sans-serif, sans-serif;
   display: flex;
   position: relative;
 }
-.product {
+.product,
+.book_catagories_2_items {
   width: 16.66%;
   padding: 15px;
   padding-top: 0;
@@ -300,23 +308,48 @@
 .arrow_btn {
   position: absolute;
   top: 50%;
-  border-radius: 0 4px 4px 0;
+  border-radius: 0 5px 5px 0;
   transform: translate(0, -50%);
-  padding: 10px 5px;
+  padding: 20px 5px;
   background: #fff;
   z-index: 888;
 }
+.arrow_btn img {
+  margin-top: 5px;
+}
 .arrow_btn_left {
   left: -16px;
+  cursor: not-allowed;
 }
 .arrow_btn_left img {
   opacity: 0.3;
 }
 .arrow_btn_right {
   right: -16px;
-  box-shadow: -2px 2px 12px -2px rgba(0, 0, 0, 0.2), -2px -2px 12px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: -2px 2px 12px -2px rgba(0, 0, 0, 0.2),
+    -2px -2px 12px -2px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 .arrow_btn img {
   width: 35px;
+}
+
+.book_catagory_2_item {
+  background: url("../images/background/custom-category.png") no-repeat;
+  background-size: cover;
+  color: #fff;
+  width: 16.66%;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.book_catagory_2_item:nth-child(6) {
+  margin-right: 0;
+}
+.book_catagory_2_item:first-child {
+  margin-left: 0;
 }
