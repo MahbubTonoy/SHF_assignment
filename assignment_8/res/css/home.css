@@ -170,7 +170,8 @@
 }
 
 .recently_solid_product,
-.book_catagories_2 {
+.book_catagories_2,
+.online_shopping_fair {
   background: #fff;
   padding: 16px;
 }
@@ -204,16 +205,17 @@
 .product_image_wrapper {
   text-align: center;
   position: relative;
+  width: 130px;
+  margin: 0 auto;
+  transform: scale(0.84);
 }
 .product_image_wrapper img {
-  width: 130px;
-  -webkit-transform: scale(0.84);
-  transform: scale(0.84);
+  width: 100%;
 }
 .read_book_icon {
   position: absolute;
-  right: 23px;
-  bottom: 21px;
+  right: 0;
+  bottom: 5px;
   height: 68px;
   width: 85px;
   background: url("../images/icons/look-inside.png") no-repeat;
@@ -238,6 +240,7 @@
 }
 .discount_3 {
   background: url("../images/icons/discount-badge-three.png") no-repeat;
+  color: #fff;
 }
 .book_title {
   text-align: center;
@@ -403,4 +406,14 @@
 .all_keyword span {
   margin-left: 5px;
   font-weight: 700;
+}
+.online_shopping_fair .product {
+  width: 20%;
+}
+.online_shopping_fair .product_image_wrapper {
+  transform: scale(1);
+}
+.online_shopping_fair .discount {
+  left: -20%;
+  top: 0%;
 }

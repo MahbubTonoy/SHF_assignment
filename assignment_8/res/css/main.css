@@ -2,16 +2,21 @@
  font-family: Siyamrupali;
  src: url("../fonts/Siyamrupali_1_01.ttf");
 }
+
+
 @font-face {
  font-family: Kalpurush;
  src: url("../fonts/kalpurush.ttf");
 }
+
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
  font-family: "SiyamRupali", "Lato", sans-serif, sans-serif;
 }
+
 body {
  font-size: 14px;
  background: #f1f2f4;
