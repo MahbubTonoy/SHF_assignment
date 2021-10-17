@@ -174,6 +174,7 @@
 .online_shopping_fair {
   background: #fff;
   padding: 16px;
+  position: relative;
 }
 
 .catagory_title {
@@ -192,6 +193,7 @@
   font-family: "Kalpurush", "Lato", sans-serif, sans-serif;
   display: flex;
   position: relative;
+  margin-top: 20px;
 }
 .product,
 .book_catagories_2_items {
@@ -416,4 +418,25 @@
 .online_shopping_fair .discount {
   left: -20%;
   top: 0%;
+}
+.book_author {
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+.view_all_btn {
+  display: inline-flex;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  padding: 6px 12px;
+  border: 1px solid #8bc4ea;
+  color: #0397d3;
+  border-radius: 3px;
+  transition: all 0.2s linear;
+}
+.view_all_btn:hover {
+  background: #0397d3;
+  border: 1px solid #0397d3;
+  color: #fff;
 }
