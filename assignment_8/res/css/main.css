@@ -994,3 +994,22 @@ footer {
   background: #ff9900;
   color: #fff !important;
 }
+
+.cart_area {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 71vh;
+ color: #333;
+ font-size: 18px;
+}
+.cart_wraper {
+ width: 100%;
+ text-align: center;
+}
+.add_to_cart {
+ padding: 15px;
+ border: 3px soild #33c24d;
+ color: #33c24d;
+ cursor: pointer;
+}

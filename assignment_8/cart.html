@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Cart | Rokomari.com</title>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="res/css/main.css" type="text/css" />
+
+    <!-- favicon -->
+    <link rel="icon" href="res/images/icons/favicon.ico" type="image/ico" />
+</head>
+<body>
+     <!-- navigation area -->
+     <nav>
+      <div class="top_nav_area">
+        <div class="logo_area">
+          <img src="res/images/icons/rokomari_logo.png" alt="Rokomari" />
+        </div>
+        <form action="index.html" method="POST" class="search_bar">
+          <input
+            type="text"
+            placeholder="Search By Authors(ex. চমক হাসান, J.K. Rowling)"
+            class="search_box"
+          />
+          <button type="submit" class="search_submit">
+            <img src="res/images/icons/search_outline.svg" />
+          </button>
+        </form>
+        <div class="user_action_area">
+          <a href="cart.html">
+            <img src="res/images/icons/cart.svg" />
+          </a>
+          <a href="sign_up.html" class="sign_in_btn">Sign in</a>
+        </div>
+      </div>
+
+      <div class="navbar">
+        <ul>
+          <li class="current_page">
+            <a href="#" id="current_page_link">বই</a>
+          </li>
+          <li><a href="#">ইলেক্ট্রনিক্স</a></li>
+          <li><a href="#">স্টেশনারী ও অন্যান্য</a></li>
+          <li>
+            <a href="#"
+              ><img src="res/images/icons/icons8-gift-48.png" alt="gift" />গিফট
+              ফাইন্ডার</a
+            >
+          </li>
+          <li><a href="#">প্রাতিষ্ঠানিক অর্ডার</a></li>
+          <li><a href="#">অফারসমুহ</a></li>
+          <li><a href="#">ব্লগ</a></li>
+        </ul>
+      </div>
+
+      <div class="bottom_navbar">
+        <ul>
+          <li class="author">
+            <a href="#" class="dropdown_icon">লেখক</a>
+            <div class="dropdown">
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">হুমায়ুন আহমেদ</a></li>
+                  <li><a href="#">মুহমদ জাফর ইকবাল</a></li>
+                  <li><a href="#">সমরেশ মজুমদার</a></li>
+                  <li><a href="#">রবীন্দ্রনাথ ঠাকুর</a></li>
+                  <li><a href="#">সুনীল গঙ্গোপাধ্যায়</a></li>
+                  <li><a href="#">আনিসুল হক</a></li>
+                  <li><a href="#">শীর্ষেন্দু মুখপাধ্যায়</a></li>
+                  <li><a href="#">সত্যাজিত রায়</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">আহমদ ছফা</a></li>
+                  <li><a href="#">বিভূতিভূযণ বন্দ্যোপাধ্যায়</a></li>
+                  <li><a href="#">সৈয়দ শামসুল হক</a></li>
+                  <li><a href="#">সাদাত হোসাইন</a></li>
+                  <li><a href="#">তামিম শাহরিয়ার সুবিন</a></li>
+                  <li><a href="#">কাজী নজরুল ইসলাম</a></li>
+                  <li><a href="#">হুমায়ুন আজাদ</a></li>
+                  <li><a href="#">জহির রায়হান</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">ড্যান ব্রাউন</a></li>
+                  <li><a href="#">চেতন ভগত</a></li>
+                  <li><a href="#">রকিব হাসান</a></li>
+                  <li><a href="#">সৈয়দ মুজতবা আলী</a></li>
+                  <li><a href="#">মানিক বন্দোপাধ্যায়</a></li>
+                  <li><a href="#">বঙ্কিমচন্দ্র চট্টপাধ্যায়</a></li>
+                  <li><a href="#">আখতারুজ্জামান ইলিয়াস</a></li>
+                  <li><a href="#">ইমদাদুল হক মিলন</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">সেলিনা হোসেন</a></li>
+                  <li><a href="#">স্টিফেন কিং</a></li>
+                  <li><a href="#">জে. কে. রাওলিং</a></li>
+                  <li><a href="#">সাদাত হোসাইন</a></li>
+                  <li><a href="#">কাজী আনোয়ার হোসেন</a></li>
+                  <li><a href="#">সুমন্ত আসলাম</a></li>
+                  <li><a href="#">পাওলো কোয়ালহো</a></li>
+                  <li><a href="#">শওকত ওসমান</a></li>
+                </ul>
+                <a href="#">See More...</a>
+              </div>
+            </div>
+          </li>
+          <li class="subject">
+            <a href="#" class="dropdown_icon">বিষয়</a>
+            <div class="dropdown dropdown_subject">
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">অতিরিক্ত ছাড়</a></li>
+                  <li><a href="#">বইমেলা ২০২১</a></li>
+                  <li><a href="#">ইসলামি বই</a></li>
+                  <li><a href="#">উপন্যাস</a></li>
+                  <li>
+                    <a href="#">কম্পিউটার, ফ্রিল্যান্সিং ও প্রোগ্রামিং</a>
+                  </li>
+                  <li><a href="#">জীবনী, স্মৃতিচারণ ও সাক্ষাতকার</a></li>
+                  <li><a href="#">শিশু-কিশোর বই</a></li>
+                  <li><a href="#">সায়েন্স ফিকশন</a></li>
+                  <li><a href="#">ভর্তি, নিয়োগ ও প্রস্তুতি পরিক্ষা</a></li>
+                  <li><a href="#">পশ্চিমবঙ্গের বই</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">গল্প</a></li>
+                  <li><a href="#">আত্ন-উন্নয়ন, মোটিভেশনাল ও মেডিটেশন</a></li>
+                  <li><a href="#">অনুবাদ</a></li>
+                  <li><a href="#">গনিত, বিজ্ঞান ও প্রযুক্তি</a></li>
+                  <li>
+                    <a href="#">রহস্য, গোয়েন্দা, ভৌতিক, থ্রিলার ও এডভেঞ্জার</a>
+                  </li>
+                  <li><a href="#">রাজনীতি</a></li>
+                  <li><a href="#">ইতিহাস ও ঐতিহ্য</a></li>
+                  <li><a href="#">ব্যবসা, বিনিয়োগ ও অর্থনীতি</a></li>
+                  <li><a href="#">ভাষা ও অভিধান</a></li>
+                  <li><a href="#">ভ্রমন ও প্রবাস</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">মুক্তিযুদ্ধ</a></li>
+                  <li><a href="#">আইন ও বিচার</a></li>
+                  <li><a href="#">ইংরেজি ভাষার বই</a></li>
+                  <li><a href="#">ইউনিভার্সিটি</a></li>
+                  <li><a href="#">ইঞ্জিনিয়ারিং</a></li>
+                  <li><a href="#">কমিকস, নকশা ও ছবির গল্প</a></li>
+                  <li><a href="#">কৃষি ও কৃষক</a></li>
+                  <li><a href="#">গনমাধ্যম ও সাংবাদিকতা</a></li>
+                  <li><a href="#">ছড়া, কবিতা ও আবৃত্তি</a></li>
+                  <li><a href="#">ড্রয়িং, পেইন্টিং ডিজাইন ও ফটোগ্রাফি</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">দর্শন</a></li>
+                  <li><a href="#">নাটকের বই</a></li>
+                  <li><a href="#">পরিবার ও শিশু বিষয়ক (প্যারেন্টিং)</a></li>
+                  <li><a href="#">পুরষ্কারপ্রাপ্ত বই</a></li>
+                  <li><a href="#">কাজী আনোয়ার হোসেন</a></li>
+                  <li><a href="#">প্রফেশনাল, জার্নাল ও রেফারেন্স</a></li>
+                  <li><a href="#">প্রবন্ধ</a></li>
+                  <li><a href="#">প্রি অর্ডার</a></li>
+                  <li><a href="#">বাংলাদেশ</a></li>
+                  <li><a href="#">মেডিকেল</a></li>
+                  <li><a href="#">রকমারী কালেকশন</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">রান্নাবান্না, খাদ্য ও পুষ্টি</a></li>
+                  <li><a href="#">সংগীত, চলচিত্র ও বিনোদন</a></li>
+                  <li><a href="#">সমাজ, সভ্যতা ও সংস্কৃতি</a></li>
+                  <li><a href="#">স্কুল, কলেজ ও মাদ্রাসার বই</a></li>
+                  <li><a href="#">স্বাস্থ্য, পরিচর্যা ও রোগ নিরাময়</a></li>
+                </ul>
+                <a href="#">See More...</a>
+              </div>
+            </div>
+          </li>
+          <li class="publishers">
+            <a href="#" class="dropdown_icon">প্রকাশনী</a>
+            <div class="dropdown dropdown_publishers">
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">পাঞ্জেরী পাবলিকেশন্স লিঃ</a></li>
+                  <li><a href="#">নেক্সাস পাবলিকেশন্স লিঃ</a></li>
+                  <li><a href="#">জয়কলি পাবলিকেশন্স লিঃ</a></li>
+                  <li><a href="#">সাইফুর'স</a></li>
+                  <li><a href="#">এমপি থ্রি পাবলিকেশন্স</a></li>
+                  <li><a href="#">অক্ষরপত্র প্রকাশনী</a></li>
+                  <li><a href="#">দি রয়েল সায়েন্টিফিক পাবলিকেশন্স</a></li>
+                  <li><a href="#">সেবা প্রকাশনী</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">প্রথমা প্রকাশন</a></li>
+                  <li><a href="#">বাংলা একাডেমী</a></li>
+                  <li><a href="#">ঐতিহ্য</a></li>
+                  <li><a href="#">ইসলামিক ফাউন্ডেশন</a></li>
+                  <li><a href="#">বাতিঘর প্রকাশনী</a></li>
+                  <li><a href="#">বিশ্বসাহিত্য কেন্দ্র</a></li>
+                  <li><a href="#">অন্যপ্রকাশ</a></li>
+                  <li><a href="#">আনন্দ পাবলিশার্স (ভারত)</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">আদর্শ</a></li>
+                  <li>
+                    <a href="#">দি ইউনিভার্সিটি প্রেস লিমিটেড (ইউ পি এল)</a>
+                  </li>
+                  <li><a href="#">দে'জ পাবলিশিং (ভারত)</a></li>
+                  <li><a href="#">সময় প্রডাকশন</a></li>
+                  <li><a href="#">তাম্রলিপি</a></li>
+                  <li><a href="#">জ্ঞানকোষ প্রকাশনী</a></li>
+                  <li><a href="#">আগামী প্রকাশনী</a></li>
+                  <li><a href="#">পাঠক সমাবেশ</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">বিসিএস প্রকাশন</a></li>
+                  <li><a href="#">স্তাওহীদ পাবলিকেশন্স</a></li>
+                  <li>
+                    <a href="#">মিত্র ও ঘোষ পাবলিশার্স প্রাঃ লিঃ (ভারত)</a>
+                  </li>
+                  <li><a href="#">মাকতাবাতুল আযহার</a></li>
+                  <li><a href="#">অনন্যা</a></li>
+                  <li><a href="#">প্সিসটেক পাবলিকেশন্স</a></li>
+                  <li><a href="#">সন্দেশ</a></li>
+                  <li><a href="#">ঢাকা কমিক্স</a></li>
+                </ul>
+              </div>
+              <div class="dropdown_section">
+                <ul>
+                  <li><a href="#">হারপারলিক্স পাবলিশার্স</a></li>
+                  <li><a href="#">এমদাদিয়া লাইব্রেরী</a></li>
+                  <li><a href="#">পারসন</a></li>
+                  <li><a href="#">লেকচার</a></li>
+                </ul>
+                <a href="#">See More...</a>
+              </div>
+            </div>
+          </li>
+          <li><a class="orange" href="#">স্টকের প্রোডাক্ট সমুহ</a></li>
+          <li><a href="#">ইসলামী বই</a></li>
+          <li><a class="green" href="#">বইমেলা ২০২১</a></li>
+          <li><a href="#">বেস্টসেলার বই</a></li>
+          <li><a href="#">উপন্যাস</a></li>
+          <li><a href="#">বিজ্ঞানবাক্স</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /navigation area -->
+
+    <div class="cart_area base_container base_shadow">
+     <div class="cart_wraper">
+      Your Cart is Empty
+      <div class="add_to_cart">
+       Add Items to Cart
+      </div>
+     </div>
+    </div>
+    
+    <footer>
+
+     <div class="footer_top base_container">
+       <div class="footer_left">
+         <a href="#" class="onnorokom">
+           <img src="res/images/icons/onnorokom_logo.png" alt="onnorokom" />
+         </a>
+
+         <div class="footer_info">
+           <img src="res/images/icons/icon-hotline.png" />
+           <span>Hotline</span>
+           <em>
+             16297,<br/>09609616297
+           </em>
+         </div>
+
+         
+         <div class="footer_info">
+           <img src="res/images/icons/icon-corporate.png" />
+           <span>Corporate<br/>Sales</span>
+           <em>
+             +8801708166238,<br/>+8801708166239,<br/>+8801708166242
+           </em>
+         </div>
+
+         <div class="footer_info">
+           <img src="res/images/icons/icon-mail.png" />
+           <em>
+             admin@rokomari.com
+           </em>
+         </div>
+
+         <div class="footer_info">
+           <img src="res/images/icons/icon_home.png" />
+           <em>
+             2/1/E, Eden Center, Arambag, Motijheel, Dhaka-1000
+           </em>
+         </div>
+
+         <b>Stay Connected</b>
+         <div class="footer_social">
+           <a href="#"><img src="res/images/icons/facebook.png" alt=""></a>
+           <a href="#"><img src="res/images/icons/twitter.png" alt=""></a>
+           <a href="#"><img src="res/images/icons/linkedin.png" alt=""></a>
+           <a href="#"><img src="res/images/icons/instagram.png" alt=""></a>
+           <a href="#"><img src="res/images/icons/youtube.png" alt=""></a>
+         </div>
+
+         
+       </div>
+       <div class="footer_middle">
+         <div class="footer_navigation">
+           <div class="lists_of_links">
+             <b>Home</b>
+             <ul>
+               <li><a href="#">Books</a></li>
+               <li><a href="#">Electronics</a></li>
+               <li><a href="#">Accesories</a></li>
+               <li><a href="#">Gift Card</a></li>
+               <li><a href="#">Stationary</a></li>
+             </ul>
+           </div>
+           <div class="lists_of_links">
+             <b>Products </b>              
+             <ul>
+               <li><a href="#">Brands</a></li>
+               <li><a href="#">Authors</a></li>
+               <li><a href="#">Publishers</a></li>
+               <li><a href="#">List/a></li>
+               <li><a href="#">Reviews</a></li>
+             </ul>
+           </div>
+           <div class="lists_of_links">
+             <b>Get to know us</b>  
+             <ul>
+               <li><a href="#">About Us</a></li>
+               <li><a href="#">Site Map</a></li>
+             </ul>
+           </div>
+         </div>
+         <div class="footer_navigation">
+           <div class="lists_of_links">
+             <b>Shop by</b>
+             <ul>
+               <li><a href="#">Book Category</a></li>
+               <li><a href="#">Electronics Category</a></li>
+               <li><a href="#">Boi Mela 2021</a></li>
+               <li><a href="#">Islamic Book</a></li>
+               <li><a href="#">Pre Order</a></li>
+               <li><a href="#">Foreign Books</a></li>
+               <li><a href="#">Best Selling</a></li>
+               <li><a href="#">Extra Discount</a></li>
+               <li><a href="#">Stationary</a></li>
+             </ul>
+           </div>
+           <div class="lists_of_links">
+             <b>Support</b>              
+             <ul>
+               <li><a href="#">Order Track</a></li>
+               <li><a href="#">Contact Us</a></li>
+               <li><a href="#">Find My Product</a></li>
+               <li><a href="#">Guide</li>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">FAQ - Happy Return</a></li>
+               <li><a href="#">Help Desk</a></li>
+               <li><a href="#">Writter/Publisher Request</a></li>
+             </ul>
+           </div>
+           <div class="lists_of_links">
+             <b>Policies</b>  
+             <ul>
+               <li><a href="#">Terms of Use</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+               <li><a href="#">Happy Return</a></li>
+               <li><a href="#">Refund Policy</a></li>
+             </ul>
+           </div>
+         </div>
+       </div>
+       <div class="footer_right">
+         <h3>Like us on Facebook</h3>
+         <a href="#">rokomari.com</a>
+         <div class="download_icon">
+           <img src="res/images/icons/icon-rok.png" /><span>Download App</span>
+         </div>
+         <div class="download_btn_wrapper">
+           <a href="#"><img src="res/images/icons/icon-play-store.png" alt=""></a>
+           <a href="#"><img src="res/images/icons/icon-app-store.png" alt=""></a>
+         </div>
+       </div>
+     </div>
+     <div class="footer_payment_method">
+       We accept payment via
+       <img src="res/images/icons/cod.png" alt="">
+       <img src="res/images/icons/bkash.png" alt="">
+       <img src="res/images/icons/Nagad-Logo.png" alt="">
+       <img src="res/images/icons/visa.png" alt="">
+       <img src="res/images/icons/master-card.png" alt="">
+       <img src="res/images/icons/amex-card.png" alt="">
+       <img src="res/images/icons/rocket.png" alt="">
+       <img src="res/images/icons/city-bank.png" alt="">
+       <img src="res/images/icons/dmoney.png " alt="">
+     </div>
+     <div class="footer_desclaimer">
+
+
+Rokomari.com is now one of the leading e-commerce organizations in Bangladesh. It is indeed the biggest online bookshop or bookstore in Bangladesh that helps you save time and money. You can buy books online with a few clicks or a convenient phone call. With breathtaking discounts and offers you can buy anything from Bangla Upannash or English story books to academic, research or competitive exam books. Superfast cash on delivery service brings the products at your doorstep. Our customer support, return and replacement policies will surely add extra confidence in your online shopping experience. Happy Shopping with Rokomari.com!
+
+     </div>
+     <div class="bottom_footer">
+
+
+&copy; 2012-2021 <pre>Rokomari.com</pre>
+
+     </div>
+   </footer>
+
+</body>
+</html>
