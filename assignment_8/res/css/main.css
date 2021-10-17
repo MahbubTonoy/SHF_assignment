@@ -36,6 +36,7 @@ a {
 .base_shadow {
  box-shadow: 0px 4px 6px -3px #9c9c9c;
  border-radius: 3px;
+ background: #fff;
 }
 
 
@@ -647,4 +648,61 @@ transition: all 0.3s linear;
 }
 .top_author .product:hover p {
  color: #0397d3;
+}
+.subscribe_container {
+ text-align: center;
+}
+
+.subscribe_container p {
+ font-size: 20px;
+ padding: 20px 0;
+ font-family: "SiyamRupali", "Lato", sans-serif, sans-serif;
+}
+.subscribe_container p span {
+ color: #33c24d;
+ display: inline-block;
+ margin-left: 15px;
+ font-size: 22px;
+}
+.subscribe_container form {
+ display: flex;
+ justify-content: center;
+}
+.subscribe_container input
+ {
+ padding: 10px;
+ margin: 10px 5px 30px 0px;
+}
+.subscribe_container input[type="text"] {
+ width: 375px;
+ border: 1px solid #ddd;
+ border-radius: 3px;
+ outline: 0px solid #8bc4ea;
+ transition: all 0.2s linear;
+}
+.subscribe_container input[type="text"]:focus {
+ outline: 3px solid #8bc4ea;
+}
+.subscribe_container .male{
+ color: #0597D3;
+ border: 1px solid #8bc4ea;
+ background: #fff;
+ cursor: pointer;
+ transition: all 0.2s linear;
+} 
+.subscribe_container .male:hover {
+ color: #fff;
+ background: #0597D3;
+}
+
+.subscribe_container .female{
+ color: #e57c7c;
+ border: 1px solid #e57c7c;
+ background: #fff;
+ cursor: pointer;
+ transition: all 0.2s linear;
+} 
+.subscribe_container .female:hover {
+ color: #fff;
+ background: #e57c7c;
 }
