@@ -440,3 +440,33 @@
   border: 1px solid #0397d3;
   color: #fff;
 }
+.must_read_catagory {
+  text-align: center;
+  display: inline-block;
+}
+.must_read_catagory svg {
+  height: 100px;
+  width: 100px;
+}
+.must_read_catagory p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #333;
+  transition: all 0.3s linear;
+}
+.must_read_catagory:hover p {
+  color: #0597D3;
+}
+.must_read_catagory svg {
+  fill: #afc1e0;
+}
+.must_read_catagory svg path {
+  transition: all 0.3s linear;
+}
+.must_read_catagory:hover .hover_yellow {
+  fill: #FFD97C;
+}
+.must_read_catagory:hover .hover_blue {
+  fill: #0597D3;
+}
+
