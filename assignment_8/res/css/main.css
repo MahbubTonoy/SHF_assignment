@@ -1007,9 +1007,14 @@ footer {
  width: 100%;
  text-align: center;
 }
-.add_to_cart {
+.cart_wraper span {
+ display: block;
+}
+.cart_add_to_cart {
+ display: inline-block;
  padding: 15px;
- border: 3px soild #33c24d;
+ border-radius: 3px;
  color: #33c24d;
  cursor: pointer;
+ border: 3px soild #33c24d;
 }
