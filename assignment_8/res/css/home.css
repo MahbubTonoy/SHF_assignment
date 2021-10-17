@@ -244,6 +244,17 @@
   background: url("../images/icons/discount-badge-three.png") no-repeat;
   color: #fff;
 }
+.serial_badge {
+  background: url("../images/icons/serial-badge-2.png") no-repeat;
+  height: 30px;
+  width: 60px;
+  position: absolute;
+  top: -5px;
+  left: 40px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
 .book_title {
   text-align: center;
   margin-bottom: 7px;
@@ -419,10 +430,15 @@
   left: -20%;
   top: 0%;
 }
-.book_author {
+.book_author,
+.in_stock {
   text-align: center;
   font-size: 13px;
   color: #666;
+}
+.in_stock {
+  color: #33c24d;
+  margin: 5px 0;
 }
 .view_all_btn {
   display: inline-flex;
