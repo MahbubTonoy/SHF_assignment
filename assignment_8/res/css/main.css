@@ -311,7 +311,8 @@ a {
 
 .recently_solid_product,
 .book_catagories_2,
-.online_shopping_fair {
+.online_shopping_fair,
+.recently_viewed {
  background: #fff;
  padding: 16px;
  position: relative;
@@ -705,4 +706,83 @@ transition: all 0.3s linear;
 .subscribe_container .female:hover {
  color: #fff;
  background: #e57c7c;
+}
+.custom_area {
+ display: flex;
+}
+.custom_area > div {
+ width: 25%;
+}
+.custom_area_elements {
+ display: flex;
+ margin: 10px 0;
+}
+.custom_area_elements img {
+ height: 34px;
+ width: 34px;
+ margin: 0 10px;
+}
+.custom_area_details_1 {
+ font-size: 14px;
+}
+.custom_area_details_2 {
+ font-size: 12px;
+ color: #888;
+}
+.recently_viewed .product {
+ margin: 0 auto;
+}
+.recently_viewed .product img {
+ transform: scale(0.9);
+}
+footer {
+ background: #fff;
+ padding: 10px 0;
+}
+.footer_top {
+ width: 100%;
+ display: flex;
+}
+.footer_top > div {
+ padding: 0 15px;
+}
+
+.footer_left {
+ width: 33.66%;
+ 
+}
+.footer_bottom {
+ width: 41.66%;
+}
+.footer_right {
+ width: 25%;
+}
+.footer_left .onnorokom img{
+ width: 30%;
+ margin-bottom: 30px;
+}
+.footer_info {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ margin-bottom: 15px;
+}
+.footer_info img {
+ width: 22px;
+ height: 22px;
+ margin-right: 15px;
+}
+.footer_info span {
+ margin-right: 15px;
+ color: #666;
+ text-align: center;
+}
+.footer_info em {
+ font-size: 12px;
+}
+.footer_social {
+ margin-top: 10px;
+}
+.footer_social img {
+ height: 25px;
 }
