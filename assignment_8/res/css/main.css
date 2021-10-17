@@ -182,6 +182,17 @@ a {
 .bottom_navbar > ul > li a:hover {
  color: #0397d3;
 }
+.orange {
+ color: #e87e04 !important;
+}
+.green {
+ color: #33c24d !important;
+}
+
+.orange:hover,
+.green:hover {
+ color: #333 !important;
+}
 
 .dropdown_icon::after {
  content: "^";
@@ -751,8 +762,8 @@ footer {
  width: 33.66%;
  
 }
-.footer_bottom {
- width: 41.66%;
+.footer_middle {
+ width: 50%;
 }
 .footer_right {
  width: 25%;
@@ -785,4 +796,82 @@ footer {
 }
 .footer_social img {
  height: 25px;
+}
+.footer_navigation {
+ display: flex;
+ width: 100%;
+ justify-content: space-between;
+}
+.footer_navigation b{
+ color: #333;
+}
+.lists_of_links ul {
+ margin-bottom: 20px;
+}
+.lists_of_links li {
+ margin-left: 10px;
+ list-style-type: circle;
+ margin: 0 15px;
+}
+.lists_of_links a {
+ color: #333;
+ font-size: 11px;
+}
+.footer_right h3 {
+ font-weight: 400;
+}
+.footer_right a {
+ margin: 15px 0;
+ font-size: 13px;
+ color: #222;
+ display: block;
+}
+.download_icon {
+ display: flex;
+ align-items: center;
+}
+.footer_right span {
+ font-weight: 600;
+ display: inline-flex;
+ margin-left: 10px;
+ vertical-align: middle;
+ font-size: 18px;
+}
+.download_btn_wrapper {
+ width: 100%;
+ display: flex;
+}
+.download_btn_wrapper img {
+ height: 40px;
+ margin: 5px;
+}
+.footer_payment_method {
+ border-top: 1px solid #ccc;
+ border-bottom: 1px solid #ccc;
+ padding: 20px;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.footer_payment_method img{
+ max-height: 32px;
+ max-width: 60px;
+ margin: 0 10px;
+}
+.footer_desclaimer {
+ text-align: center;
+ padding: 10px 5px;
+ color: #333;
+ font-size: 13px;
+ line-height: 1.4rem;
+}
+.bottom_footer {
+ background: #f1f2f4;
+ text-align: center;
+ padding: 15px;
+ font-size: 13px;
+}
+.bottom_footer pre {
+ display: inline;
 }
