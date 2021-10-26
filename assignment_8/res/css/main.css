@@ -134,7 +134,7 @@ a {
   border-bottom: 1px solid #89c4f4;
 }
 .current_page {
-  border-width: 1px 1px 0 1px;
+  border-width: 1px 1px 0px 1px;
   border-color: #89c4f4;
   border-style: solid;
   position: relative;
