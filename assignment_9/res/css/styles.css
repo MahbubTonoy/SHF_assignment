@@ -52,7 +52,10 @@
 .tonoy_1 {
  max-width: 70%;
 }
-.card-img-top {
+#services .card {
+ height: 100%;
+}
+#services .card-img-top {
  background-position: center;
  background-repeat: no-repeat;
  background-size: cover;
@@ -60,20 +63,23 @@
 }
 
 .web_design {
- background-image: url("../images/web_design.png");
+ background-image: url("../images/services/web_design.png");
 }
 
 .web_development {
- background-image: url("../images/web_development.png");
+ background-image: url("../images/services/web_development.png");
 }
 
 .wordpress {
- background-image: url("../images/wordpress.png");
+ background-image: url("../images/services/wordpress.png");
 }
 
 .laravel {
- background-image: url("../images/laravel.png");
+ background-image: url("../images/services/laravel.png");
 }
 .services_show_btn:hover {
  color: #e82252;
+}
+#projects .card {
+ height: 100%;
 }
