@@ -83,3 +83,7 @@
 #projects .card {
  height: 100%;
 }
+#contact a:hover i,
+#contact a:hover span {
+ color: #e82252 !important;
+}
