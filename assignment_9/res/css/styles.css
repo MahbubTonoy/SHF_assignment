@@ -1,13 +1,24 @@
 /* background: #e82252 */
-
-
+.base_color {
+ color: #e82252;
+}
+.base_background {
+ background: #e82252;
+ color: #fff;
+}
+.text-justify {
+ text-align: justify;
+}
 
 .navbar-brand img {
  height: 35px;
 }
+.nav-link:hover {
+ color: #e82252 !important;
+}
 
 .hero_area {
- height: 500px;
+ min-height: 500px;
 }
 .hero_area>div {
  height: 100%;
@@ -17,11 +28,27 @@
  background-image: url("../images/backgrounds/hero_area_bg.png");
  background-repeat: no-repeat;
  background-size: cover;
- background-position: top left;
+ background-position: center;
+ min-height: 550px;
 }
 
 .hero_content hr {
- background: #e82252;
  width: 80%;
  height: 2px;
+}
+
+.headline {
+ cursor: pointer;
+}
+.headline_hr {
+ width: 100px;
+ height: 5px !important;
+ transition: all 0.5s ease-in-out;
+}
+.headline:hover .headline_hr {
+ width: 120px;
+}
+
+.tonoy_1 {
+ max-width: 70%;
 }

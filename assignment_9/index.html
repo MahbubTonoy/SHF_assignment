@@ -23,7 +23,8 @@
 
 
   <!-- top nav bar -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div id="home"></div>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
   <div class="container-xxl">
     <a class="navbar-brand" href="/">
      <img src="res/images/icons/logo_white.png" class="my-2 mx-5" alt="Mahbub Tonoy" />
@@ -34,10 +35,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active me-3" href="#">Home</a>
+          <a class="nav-link active me-3" href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active me-3" href="#">About</a>
+          <a class="nav-link active me-3" href="#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active me-3" href="#">Services</a>
@@ -55,30 +56,49 @@
           <a class="nav-link active me-3" href="#">Sitemap</a>
         </li>
        </ul>
-       <a class="text-white me-3 btn btn-outline-danger rounded-pill px-4" href="#">Hire Me</a>
+       <a class="me-3 btn btn-danger rounded-pill px-4" href="#">Hire Me</a>
     </div>
    </div>
 </nav>
 <!-- /top nav bar -->
 
 
-<!-- hero area -->
-<div class="container-xxl hero_area bg-black">
- <div class="hero_content row">
-   <div class="col hero_bg"></div>
-   <div class="col d-flex align-items-center">
-     <div>
+<div class="container-xxl hero_area mt-5 pt-4">
+  <!-- hero area -->
+ <div class="hero_content row bg-black">
+   <div class="col-md hero_bg"></div>
+   <div class="col-md d-flex align-items-center">
+     <div class="m-5">
        <p class="fs-5 text-light m-0">Meet The Perfect Developer</p>
-       <hr class="mt-1 rounded-pill opacity-100" />
+       <hr class="mt-1 rounded-pill opacity-100 base_background" />
        <h1 class="text-white">Mahbub Rashid Tonoy</h1>
        <button class="btn btn-lg btn-danger rounded-pill px-4 mt-4">Hire Me</button>
       </div>
    </div>
  </div>
+ <!-- /hero area -->
+ 
+ <!-- about section -->
+ <h1 class="text-center my-4 headline" id="about">
+   ABOUT
+   <hr class="text-center base_background rounded-pill headline_hr opacity-100 mt-1 mx-auto" />
+ </h1>
+
+ <div class="row mt-5">
+   <div class="col-md ps-4">
+     <h2 class="mb-4">Mahbub Rashid Tonoy</h2>
+     <p class="text-justify">I want to be an achiever. As a passionate Web Application Developer, I want to be a leading Web Application Developer. My main goal is to make myself able to do something for myself, my family, my country and for the human civilization. Because of having a big dream, I always try hard and soul. I’m always ready to face any challenges and continuous improvement of myself.</p>
+     <p class="text-justify">I always try to achieve new knowledge everyday about Web Application Development. Programming is my passion. I like to make logics and systems. also I always try to teach everyone about web application development and programming.</p>
+     <button class="btn btn-outline-danger rounded-4 px-4">Learn More 	&#8594;</button>
+   </div>
+   <div class="col-lg d-flex">
+     <img src="res/images/tonoy_1.png" class="img-fluid img-thumbnail tonoy_1 mx-auto" alt="Mahbub Rashid Tonoy"/>
+   </div>
+ </div>
+ <!-- /about section -->
+
+
 </div>
-<!-- /hero area -->
-
-
 
 
 
