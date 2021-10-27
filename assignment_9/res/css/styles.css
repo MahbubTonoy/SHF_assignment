@@ -52,3 +52,28 @@
 .tonoy_1 {
  max-width: 70%;
 }
+.card-img-top {
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding-top: 55%;
+}
+
+.web_design {
+ background-image: url("../images/web_design.png");
+}
+
+.web_development {
+ background-image: url("../images/web_development.png");
+}
+
+.wordpress {
+ background-image: url("../images/wordpress.png");
+}
+
+.laravel {
+ background-image: url("../images/laravel.png");
+}
+.services_show_btn:hover {
+ color: #e82252;
+}
