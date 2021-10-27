@@ -1,0 +1,27 @@
+/* background: #e82252 */
+
+
+
+.navbar-brand img {
+ height: 35px;
+}
+
+.hero_area {
+ height: 500px;
+}
+.hero_area>div {
+ height: 100%;
+}
+
+.hero_bg {
+ background-image: url("../images/backgrounds/hero_area_bg.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: top left;
+}
+
+.hero_content hr {
+ background: #e82252;
+ width: 80%;
+ height: 2px;
+}
