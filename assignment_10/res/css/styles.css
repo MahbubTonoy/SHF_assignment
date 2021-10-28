@@ -1,0 +1,28 @@
+/* base color: #5946ca */
+
+/* reusable components */
+/* /reusable components */
+
+.main_logo {
+ height: 60px;
+}
+.base-bg {
+ background: #5946ca;
+ color: #fff;
+}
+.base-text {
+ color: #5946ca;
+}
+.text-justify {
+ text-align: justify;
+}
+
+.hero_area_child {
+ height: 100%;
+}
+.hero_area_child div {
+ height: 100%;
+}
+.hero_area_child img {
+ height: 100%;
+}
