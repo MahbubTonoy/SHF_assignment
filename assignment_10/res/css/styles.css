@@ -2,10 +2,10 @@
 
 /* reusable components */
 /* /reusable components */
-
-.main_logo {
- height: 60px;
+body {
+ overflow-x: hidden;
 }
+
 .base-bg {
  background: #5946ca;
  color: #fff;
@@ -16,13 +16,29 @@
 .text-justify {
  text-align: justify;
 }
+.shape-usd {
+ transform: rotate(180deg);
+}
 
-.hero_area_child {
+
+.main_logo {
+ height: 60px;
+}
+.hero_area {
+ height: 80vh;
+}
+.hero_area div,
+.hero_area img {
  height: 100%;
 }
-.hero_area_child div {
- height: 100%;
+.hero_area img {
+ max-width: 100%;
 }
-.hero_area_child img {
- height: 100%;
+.area-shape {
+ height: 50px;
+ width: 100%;
+}
+
+.freelancing_image {
+ max-width: 400px;
 }
