@@ -1,11 +1,9 @@
 /* base color: #5946ca */
-
-/* reusable components */
-/* /reusable components */
 body {
  overflow-x: hidden;
 }
 
+/* reusable components */
 .base-bg {
  background: #5946ca;
  color: #fff;
@@ -19,6 +17,7 @@ body {
 .shape-usd {
  transform: rotate(180deg);
 }
+/* /reusable components */
 
 
 .main_logo {
@@ -41,4 +40,10 @@ body {
 
 .freelancing_image {
  max-width: 400px;
+}
+.service_card .card {
+ transition: all 0.1s ease-in-out;
+}
+.service_card .card:hover {
+ transform: scale(1.01);
 }
