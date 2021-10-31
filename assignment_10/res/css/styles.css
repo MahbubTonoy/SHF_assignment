@@ -50,3 +50,6 @@ body {
 .popular .card img {
  max-height: 220px;
 }
+.owners img{
+ max-width: 200px;
+}
