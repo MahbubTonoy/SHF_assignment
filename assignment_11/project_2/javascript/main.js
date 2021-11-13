@@ -1,18 +1,24 @@
 function totalRent(days) {
- var base_rent = 100, rentPerDay;
- if(days <=10) {
-  rentPerDay = base_rent;
+var i=1,
+    rent=0,
+    base_price = 100;
+
+while(i<=days) {
+ if(i<=10) {
+  rent += base_price;
  }
- else if(days > 10 && days <=20) {
-  rentPerDay = base_rent - ((base_rent/100)*20);
+ else if(i > 10 && i <=20) {
+  rent += base_price - ((base_price/100)*20);
  }
  else {
-  rentPerDay = base_rent - ((base_rent/100)*50);
+  rent += base_price - ((base_price/100)*50);
  }
- var total_rent = rentPerDay*days;
- return total_rent;
+ i++;
+}
+return rent;
 }
 
-var days = 21;
+
+var days = 11;
 var rent = totalRent(days);
 document.write("<h2>Rent for " + days + " days is: "+ rent + " Taka Only.</h2>");
