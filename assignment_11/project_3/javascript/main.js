@@ -21,7 +21,8 @@ var friends = [
 function greaterNameFinder(friendsArray) {
  var targetIndex = 0;
 
- for(var i = 0; i < friendsArray.length; i++) {
+ for(var i = 1; i < friendsArray.length; i++) {
+
 
   if(friendsArray[i].length > friendsArray[targetIndex].length) {
    targetIndex = i;
