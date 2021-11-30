@@ -17,7 +17,11 @@ var friends = [
   "Shawon Ahmed Rubel",
   "Sakib Raz"
 ];
-
+document.write("<h2>My Friend List</h2><ul>");
+for(let name of friends) {
+  document.write("<li>"+name+"</li>");
+}
+document.write("</ul>");
 function greaterNameFinder(friendsArray) {
  var targetIndex = 0;
 

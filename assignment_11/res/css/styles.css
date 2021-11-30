@@ -1,0 +1,31 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+h1 {
+ font-family: 'Times New Roman', Times, serif;
+ padding: 10px;
+}
+dl {
+ padding: 10px;
+}
+dt {
+ padding-bottom: 10px;
+}
+dd {
+ padding-left: 30px;
+}
+
+dd::before {
+ content: "~ ";
+}
+a {
+ color: blue;
+ text-decoration: none;
+ display: inline-block;
+ margin-bottom: 5px;
+}
+a:hover {
+ color: darkred;
+}

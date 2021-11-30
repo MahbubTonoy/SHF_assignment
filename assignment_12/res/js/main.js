@@ -1,23 +1,63 @@
-let display = document.querySelector(".display span");
+const display = document.querySelector(".display span");
+let temp;
 
+//print values on calculator display
+function print(data) {
+ display.innerHTML = data;
+}
+
+// get the inputs from buttons
 function btnInput(input) {
- display.innerHTML += input;
+ temp = display.innerHTML + input;
+ print(temp);
 }
 
+//erase display value one by one
 function erase() {
- let temp = display.innerHTML.substring(0, display.innerHTML.length-1);
- display.innerHTML = temp;
+ temp = display.innerHTML.substring(0, display.innerHTML.length-1);
+ print(temp);
 }
 
-function reset() {
- display.innerHTML = "";
-}
-
-function action() {
- try {
-  let math = eval(display.innerHTML);
-  display.innerHTML = math;
- } catch(err) {
-  alert("Math Error");
+//perform math operations with error handler
+ function action() {
+  let equation = display.innerHTML;
+  temp = equation.replace("÷","/");
+  temp = temp.replace("×", "*");
+  try {
+   temp = eval(temp);
+   print(temp);
+  } catch(err) {
+   alert("Math Error");
+   print("");
+  }
  }
+
+
+//clear display
+function reset() {
+ print("");
 }
+
+
+//keyboard capture
+document.addEventListener("keydown", (e)=>{
+ if(
+  (
+   e.key >= 0 && e.key <=9) ||
+   e.key == "+" ||
+   e.key == "-" ||
+   e.key == "/" ||
+   e.key == "*" ||
+   e.key == "(" ||
+   e.key == ")" 
+  ) {
+   temp = display.innerHTML+ e.key;
+   print(temp);
+ } else if(e.key == "Enter") {
+  action();
+ } else if(e.key == "Backspace") {
+  erase();
+ } else if(e.key == "c") {
+   reset();
+ }
+});
