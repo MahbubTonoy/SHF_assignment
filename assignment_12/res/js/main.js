@@ -39,25 +39,24 @@ function reset() {
 }
 
 
-//keyboard capture
-document.addEventListener("keydown", (e)=>{
- if(
-  (
-   e.key >= 0 && e.key <=9) ||
-   e.key == "+" ||
-   e.key == "-" ||
-   e.key == "/" ||
-   e.key == "*" ||
-   e.key == "(" ||
-   e.key == ")" 
-  ) {
-   temp = display.innerHTML+ e.key;
-   print(temp);
- } else if(e.key == "Enter") {
-  action();
- } else if(e.key == "Backspace") {
-  erase();
- } else if(e.key == "c") {
-   reset();
- }
+document.addEventListener("keypress", function(e) {
+  if(e.key >= 0 && e.key <= 9) {
+    display.innerHTML += e.key;
+  }
+  else if(
+    e.key == '+' ||
+    e.key == '-' ||
+    e.key == '*' ||
+    e.key == '/' ||
+    e.key == '(' ||
+    e.key == ')' ||
+    e.key == '.'
+    ) {
+      display.innerHTML += e.key;
+    }
+    else if(e.key == 'Backspace') {
+      erase();
+    } else if(e.key == 'c') {
+      reset();
+    }
 });
