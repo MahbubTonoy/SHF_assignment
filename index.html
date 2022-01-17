@@ -11,21 +11,19 @@
  <h1>
   Serve Human Foundation Assignments (Batch-04)
  </h1>
- <dl>
-  <dt>Main Assignments</dt>
-  <dd><a href="assignment_1">Assignment 1</a></dd>
-  <dd><a href="assignment_2">Assignment 2</a></dd>
-  <dd><a href="assignment_3">Assignment 3</a></dd>
-  <dd><a href="assignment_4">Assignment 4</a></dd>
-  <dd><a href="assignment_5">Assignment 5</a></dd>
-  <dd><a href="assignment_6">Assignment 6</a></dd>
-  <dd><a href="assignment_7">Assignment 7</a></dd>
-  <dd><a href="assignment_8">Assignment 8</a></dd>
-  <dd><a href="assignment_9">Assignment 9</a></dd>
-  <dd><a href="assignment_10">Assignment 10</a></dd>
-  <dd><a href="assignment_11">Assignment 11</a></dd>
-  <dd><a href="assignment_12">Assignment 12</a></dd>
-  <dd><a href="assignment_13">Assignment 13</a></dd>
+ <dl id="assignments">
  </dl>
+ <script type="text/javascript">
+  
+  //change projects count
+  let assignment_count = 19;
+
+
+  let container = document.getElementById("assignments");
+  container.innerHTML = "<dt>Main Assignments</dt>";
+  for(let i=1; i<=assignment_count; i++) {
+   container.innerHTML += `<dd><a href="assignment_${i}">Assignment ${i}</a></dd>`;
+  }
+ </script>
 </body>
 </html>
